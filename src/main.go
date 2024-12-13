@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"valyntyler.com/aoc-2024-day-05/input"
+)
 
 func main()  {
-  fmt.Println("Hello, world!")
+  fmt.Println(string(input.Bytes))
 }
